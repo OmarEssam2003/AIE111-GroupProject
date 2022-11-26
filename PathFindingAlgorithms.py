@@ -1,10 +1,14 @@
-"""
-# 1.) Breadth First Search
-    -
-# 2.) Dijkstra's Algorithm (Uniform Cost)
-    -
-    -
-# 3.) A* Algorithm
-    -
-    -
-"""
+
+def BreadthFirstSearch():
+    # do something
+    print()
+
+
+def Dijkstra():
+    # do something
+    print()
+
+
+def Astar():
+    # do something
+    print()

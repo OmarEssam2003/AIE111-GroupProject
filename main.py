@@ -1,11 +1,13 @@
-
-# Group Project for AIE111 - Artificial Intelligence
-import sys
-import pygame
+import os
+import ImageProcessing as IP
+import PathFindingAlgorithms as PF
 
 
 def main():
-    print("Hello World!")
+    # path = IP.GetPathOfImage()
+    PIXELS = IP.TranslateImageTo2DArray(r"C:\Users\user\OneDrive\Desktop\debug.jpg")
+    # returns a 2d numpy array
+    print(PIXELS)
 
 
 if __name__ == "__main__":
